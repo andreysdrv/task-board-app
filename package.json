@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write . --config .prettierrc.json",
+    "check": "npm run lint:fix",
     "prepare": "husky install"
   },
   "dependencies": {
